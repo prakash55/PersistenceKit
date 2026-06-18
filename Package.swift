@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "PersistenceKit", targets: ["PersistenceKit"]),
     ],
     dependencies: [
-        .package(path: "../DomainKit"),
+        .package(url: "https://github.com/prakash55/DomainKit.git", branch: "main"),
     ],
     targets: [
         .target(
